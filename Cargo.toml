@@ -1,7 +1,9 @@
+workspace = { members = ["Crates/Raw_bindings"] }
+
 [package]
 name = "Rust_SDK"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-Raw_bindings = { path = "Raw_bindings" }
+Raw_bindings = { path = "Crates/Raw_bindings" }
